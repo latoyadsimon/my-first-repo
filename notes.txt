@@ -33,3 +33,14 @@ to see the changes you made
 
 // q, if you get stuck in the editor in the terminal
 
+git push origin main// you can use this after the first time setting your origin for the repo
+
+
+you should be committing frequently and only committing code that works.
+This way you can go back to early versions in the future when you come across bugs.
+
+//signing up for a github account:
+https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account
+
+//Adding locally hosted code to github
+https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github
