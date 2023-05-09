@@ -15,3 +15,21 @@ git add .
 
 //commit the changes
 git commit -m "your message here
+
+//now that the code has been commited for the first time, we are now ready to push the code up to github
+
+follow the steps on github:
+git remote add origin https://github.com/latoyadsimon/my-first-repo.git
+
+we can verify the new origin has been set by:
+git remote -v
+
+git branch -M main// this sets our branch name
+
+git push -u origin main // this will push the changes from our local repo to our remote repo that we specified
+
+//you can use git status when you have made changes to see the files that are now untracked, then git diff 
+to see the changes you made
+
+// q, if you get stuck in the editor in the terminal
+
