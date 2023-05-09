@@ -1,0 +1,17 @@
+05-09-2023
+…or push an existing repository from the command line
+git remote add origin https://github.com/latoyadsimon/my-first-repo.git
+git branch -M main
+git push -u origin main
+
+--------------
+first you need to initialize your repository
+git init
+then 
+git status// shows us the files current status, to be staged/committed
+
+//put the files in the staging area
+git add .
+
+//commit the changes
+git commit -m "your message here
